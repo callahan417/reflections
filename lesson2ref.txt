@@ -6,3 +6,7 @@ The staging area contains files (i.e. tracked files) that are currently being ed
 
 How can you use the staging area to make sure you have one commit per logical change?
 Git add only those files that are related to a single logical change, then commit those altered files.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+1) Creating an experimental change/feature --> having it on a separate brach would protect the original if the experiment fails or is not as good.
+2) Creating an alternate version (e.g. easier, harder, foreign language, colorblind, mobile?, 3D) --> Using a separate branch would allow for freedom to make the changes and the different versions could be merged at a later date with menu choices for selecting the alternates.
