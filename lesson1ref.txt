@@ -1,0 +1,21 @@
+Deep Thoughts
+By Mike Callahan
+
+Finding bugs and typos in programs can be difficult, especially in long programs. Comparing files with the FC command makes this process easier.  FC finds all differences between two files. These differences include changes that were intentionally made as well as errors such as typos and incorrect syntax.  In our example, there was a typo consisting of a single character.  Find this typo by blindly searching through the code would have taken a long time.  The FC command make it easier by showing all of the differences between the two files, including the typo.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+Saving all versions of file could be very helpful to programmers.  Imagine working on a large program.  User specifications may change and require one to mofidy the code.  After multiple rounds of revision, the users or the programmer may decide that one of the previous versions was superior.  If you weren't saving old versions, this would require a lengthy revision.  However, because we have all versions of the file, it will be easy to either go back to the best version, or combine the better segments of the current and past versions.  In this way, the programmer can efficiently produce the best programs possible..
+
+
+
+
+
+
+How can you use the commands git log and git diff to view the history of files?
+git log can be used to get a general idea of how the file has changed with each commit.  git diff can be used to see the details of those changes.  Together, they provide a comprehensive record of the evolution of the document.
+
+How might using version control make you more confident to make changes that could break something?
+Version control saves key previous versions of software. If a bug is found in a current version, Git makes it possible to view and compare different previous versions to find and correct the bug.  The knowledge that previous verisons exist should make the programmer more confident when making changes to code.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I want to use Git to modify and save a coding file to get practice in making commits.  In the long term, I want to use Git to save and keep track of all significant changes to my programs. This will make debugging easier and will enable the exploration of new functionality without the risk of screwing up the entire program.
