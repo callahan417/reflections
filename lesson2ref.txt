@@ -3,3 +3,6 @@ When a repository is initializes with the command 'git init', Git creates a dire
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 The staging area contains files (i.e. tracked files) that are currently being edited and will be committed next (a little like being on deck in baseball), while the working directory contains untracked files (a little like being in the dugout in baseball). (A commit would be a little like and at bat in baseball.) The staging area is valuable to conceptually and operationally separate tracked files from untracked files.
+
+How can you use the staging area to make sure you have one commit per logical change?
+Git add only those files that are related to a single logical change, then commit those altered files.
