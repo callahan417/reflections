@@ -2,7 +2,7 @@ What happens when you initialize a repository? Why do you need to do it?
 When a repository is initializes with the command 'git init', Git creates a directory called .git.  This new directory will store metadata about all of the versions of tracked files that will be committed. (Files that the user wishes to track must be added to the staging area using the command 'git add <filename>'.) The .git directory is necessary to maintain a dynamic record of the evolution of the files in the repository.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
-The staging area contains files (i.e. tracked files) that are currently being edited and will be committed next (a little like being on deck in baseball), while the working directory contains untracked files (a little like being in the dugout in baseball). (A commit would be a little like and at bat in baseball.) The staging area is valuable to conceptually and operationally separate tracked files from untracked files.
+The staging area contains files that will be committed next (a little like being on deck in baseball), while the working directory contains other tracked files (a little like being on the roster in baseball). (A commit would be a little like an at bat in baseball.) The staging area is valuable to conceptually and operationally separate files to be included in a commit from files that will not be included (e.g. files that have not been edited recently.)
 
 How can you use the staging area to make sure you have one commit per logical change?
 Git add only those files that are related to a single logical change, then commit those altered files.
