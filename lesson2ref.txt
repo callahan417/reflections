@@ -16,3 +16,7 @@ The diagrams show each of the branches an where they connect to each other.  The
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 Merging two branches results in a single branch that contains all of the commits from each separate branch. These commits are shown in order based on the time at which they were created. The merger also creates a new commit in which each file is a combination of the respective versions from each branch, based on a comparison between the most recent versions and the last versions that existed before the branching.  The diagrammatic representation shows the commits from each branch on separate branches that merge back into one to make it clear where each commit came from and shows that the most recent commit is labeled with the name of the branch that was merged into.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pros: Automatic merging is less work and the developer doesn't have to think about it. The process SHOULD usually result in a workable version that combines changes from different developers.
+Cons: Automatic merging could result in lines of code included in a merged version of a file that shouldn't be there and could introduce bugs when changes from different users are combined.  It doesn't catch mistakes made by programmers. Manual merging alows for review of code before committing the merge.
