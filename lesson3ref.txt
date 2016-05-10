@@ -9,3 +9,6 @@ A branch exists occurs only within a repository and does not copy a repository, 
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 Having a local copy of the remote enables resolution of conflicts when either pulling or fetching and then merging.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Collaborating without using Git or GitHub would be difficult.  You would have to find a different way to share files.  If you just manually share files (or have access to the files in the same directory on a shared server), only one person could work on a project at a time, which would be inefficient.  This would easier, because there would never be a conflict, but it would be much slower.  It would also be difficult to create experimental features.
