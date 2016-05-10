@@ -12,3 +12,6 @@ Having a local copy of the remote enables resolution of conflicts when either pu
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 Collaborating without using Git or GitHub would be difficult.  You would have to find a different way to share files.  If you just manually share files (or have access to the files in the same directory on a shared server), only one person could work on a project at a time, which would be inefficient.  This would easier, because there would never be a conflict, but it would be much slower.  It would also be difficult to create experimental features.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+You would want to make changes in a separate branch when you want someone to review your work prior to incorporating your changes into the main version.  Working with separate branches allows for collaboration and cooperation.  Working directly in the master branch is easier because there are fewer steps involved, but it does not readily allow for collaboration or error-checking.
